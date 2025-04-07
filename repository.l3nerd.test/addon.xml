@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.l3nerd.test" name="Embuary Test Repo" version="0.1.0" provider-name="">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Embuary Test Repo">
+		<dir minversion="20.999.0">
+            <info compressed="false">https://raw.githubusercontent.com/l3nerd/repository.l3nerd.test/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/l3nerd/repository.l3nerd.test/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/l3nerd/repository.l3nerd.test/master/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Embuary Test Repo</summary>
+		<description>Describe</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
